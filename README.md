@@ -8,9 +8,21 @@
 
 **Dependencies**
 
-```
-scikit-learn (PCA, Nu-SVR), PyTorch
-```
+- Numpy
+- Matplotlib
+    - pyplot
+- Scikit-learn
+    - decomposition(PCA)
+    - manifold(t-SNE)
+    - svm(NuSVR)
+    - linear_model(Lasso, Ridge)
+    - neighbors(KNeighborClassifier)
+- Scipy
+    - io(loadmat)
+- PyTorch
+- Pillow
+    - Image
+
 
 
 ## References
