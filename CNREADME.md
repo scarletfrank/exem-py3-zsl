@@ -2,17 +2,13 @@
 
 ## Abstract
 
-
 ## Introduction
 
 ## Related Works
 
-
-
-
 ## Our Method
 
-
+MLP(Dropout) implemented by PyTorch, Lasso, Ridge by scikit-learn
 
 ## Experiment
 

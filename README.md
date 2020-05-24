@@ -2,25 +2,19 @@
 
 > 代码还是一团糟的状态
 
-
 ## Methods
 
-## About Datasets
+**EXEM** is abbreviation for exemplars, which is originated from "predicting visual exemplars of unseen classes for zero-shot learning".  Check the references for more details, 
 
-AWA folder = "G:\\dataset\\awa\\"
-- classes.txt | - predicates.txt
-- predicate-matrix-binary/continuous
-- 
-CUB folder = "G:\\dataset\\cub\\CUB_200_2011\\"
-- images.txt | train_test_split.txt | image_class_labels.txt
+**Dependencies**
 
-用pandas做一个join
+```
+scikit-learn (PCA, Nu-SVR), PyTorch
+```
 
 
-- per-class level attributes:
-    attributes\\class_attribute_labels_continuous.txt 
+## References
 
-SUN folder = "G:\\dataset\\sun\\"
-- images
-- SUNAttributeDB (mat格式, scipy)
-    - images | attributes.mat
+[EXEM](http://openaccess.thecvf.com/content_ICCV_2017/papers/Changpinyo_Predicting_Visual_Exemplars_ICCV_2017_paper.pdf)
+
+[EXEM Original Matlab](https://github.com/pujols/Zero-shot-learning-journal)
