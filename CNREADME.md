@@ -8,15 +8,15 @@
 
 ## Our Method
 
-MLP(Dropout) implemented by PyTorch, Lasso, Ridge by scikit-learn
+MLP implemented by PyTorch, Lasso, Ridge by scikit-learn
 
 ## Experiment
 
 *视觉特征*
 
-采用 ResNet-101提取特征，最后一层卷积网络输出为2048维。（原本是池化层接softmax）
+采用 ResNet-101提取特征，最后一层卷积网络输出为2048维。
 
-AwA2: 37322个样本，矩阵大小为37322x2048
+AwA2: 37322个样本
 CUB: 11788个样本
 SUN: 14340个样本
 

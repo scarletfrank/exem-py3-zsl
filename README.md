@@ -20,10 +20,16 @@
 - Scipy
     - io(loadmat)
 - PyTorch
+    - nn.Linear
+    - nn.Conv1d
+    - nn.Dropout(p=0.5)
 - Pillow
     - Image
 
+## TODO
 
+1. .ipynb => .py
+2. 解决写死(hard code)的问题
 
 ## References
 
