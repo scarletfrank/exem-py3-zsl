@@ -1,23 +1,23 @@
+from collections import defaultdict
+
 import numpy as np 
-
+import pandas as pd
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-
-from sklearn import decomposition
-from sklearn import datasets
-from sklearn.model_selection import train_test_split
-from sklearn.svm import NuSVR, SVR
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn import preprocessing
-# different regressor test
-from sklearn.linear_model import Lasso, Ridge, ElasticNet, LinearRegression
-
-
-import pandas as pd # process txt
 from scipy.io import loadmat
 from PIL import Image
+from sklearn.model_selection import train_test_split
 
-from collections import defaultdict
+# PCA
+from sklearn import decomposition, preprocessing
+
+# SVM
+from sklearn.svm import NuSVR, SVR
+
+# KNN
+from sklearn.neighbors import KNeighborsClassifier
+
+# LR
+from sklearn.linear_model import Lasso, Ridge, ElasticNet, LinearRegression
 
 folder = "G:/dataset/awa/"
 
